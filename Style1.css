@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+  }
+body{
+    font-family: 'Mukta';
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.topnav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.topnav a {
+    display: block;
+    float: left;
+    color: black;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: #2e3192;
+    color: white;
+}
+.topnav .col0{
+    box-sizing: border-box;
+    padding-left: 80px;
+}
+.topnav .col01{
+    box-sizing: border-box;
+    padding-left: 400px;
+}
+.sec1{
+    background: url(C:/Users/HP/OneDrive/Documents/Courses/CSS/Projects/Education/Images/water.jpeg);
+    width: 1500px;
+    height: 700px;
+    text-align: center;
+}
+#pro{
+    font-size: 40px;
+    padding-top: 250px;
+    color: white;
+}
+#pro1{
+    font-size: 20px;
+    color: white;
+}
+#sec2{
+    text-align: center;
+    font-size: 35px;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col1{
+    padding-left: 140px;
+}
+.col2{
+    padding-left: 130px;
+}
+.col3{
+    padding-left: 120px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1{
+    background-color: #2e3192;
+    box-sizing: border-box;
+    color: white;
+}
+.col4{
+    padding-left: 120px;
+}
+.col4 li{
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 19px;
+}
+#sec4{
+    font-size: 33px;
+}
+.col5{
+    padding-left: 200px;
+}
+#sec41{
+    background-color: #2e3192;
+    color: white;
+    padding: 17px 25px;
+}
+.row3{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.col10{
+    padding-left: 50px;
+}
+.col10 h1{
+    font-size: 55px;
+}
+.col10 p{
+    font-size: 25px;
+}
+.col10 button{
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 15px 15px;
+    font-size: 25px;
+}
+#sec5{
+    font-size: 30px;
+    text-align: center;
+}
+.row2{
+    background-color: #1e2222;
+    color: white;
+    font-size: 16px;
+
+}
+.row2 a{
+    text-decoration: none;
+    color: white;
+}
+.row2 h3{
+    font-size: 20px;
+}
+.col6{
+    padding-left: 80px;
+}
+.col7{
+    padding-left: 110px;
+}
+.col7 a{
+    display: block;
+    padding: 4px 4px;
+}
+.col7 a:hover{
+    text-decoration: underline;
+}
+input[type=email], select{
+    box-sizing: border-box;
+    padding: 20px 50px;
+    background-color: #1e2222;
+}
+input[type=text], select{
+    box-sizing: border-box;
+    padding: 40px 50px;
+    background-color: #1e2222;
+}
+input[type=submit], select{
+    box-sizing: border-box;
+    padding: 20px 110px;
+    background-color: white;
+    color: black;
+}
+.footer{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+}
+.footer p{
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 13px;
+}
+.col8{
+    padding-left: 40px;
+}
+.col9{
+    padding-left: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
