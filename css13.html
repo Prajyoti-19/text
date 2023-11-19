@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+label{
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid brown;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: purple;
+  border: 2px solid black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: coral;
+}
+
+div {
+  border-radius: 5px;
+  background-color: hotpink;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div>
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="   ">    </option>
+      <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
