@@ -65,7 +65,7 @@ body{
 }
 .sec1{
     background: url(https://prajyoti-19.github.io/text/Images/water.jpeg);
-    width: 1500px;
+    max-width: 1500px;
     height: 700px;
     text-align: center;
 }
