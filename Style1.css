@@ -41,7 +41,7 @@ body{
 }
 .topnav{
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .topnav a {
     display: block;
