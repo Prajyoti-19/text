@@ -41,7 +41,7 @@ body{
 }
 .topnav{
     background-color: rgb(255, 255, 255);
-    /*overflow: hidden;*/
+    
 }
 .topnav a {
     display: block;
@@ -61,7 +61,6 @@ body{
 }
 .topnav .col01{
     box-sizing: border-box;
-    padding-left: 400px;
 }
 .sec1{
     background: url(https://prajyoti-19.github.io/text/Images/water.jpeg);
