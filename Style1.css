@@ -89,15 +89,7 @@ body{
 
 .col1{
     text-align: center;
-    /*padding-left: 140px;*/
-}
-.col2{
-    text-align: center;
-    /*padding-left: 130px;*/
-}
-.col3{
-    text-align: center;
-/*    padding-left: 120px;*/
+    text-align: justify;
 }
 .row:after{
     content: "";
@@ -110,7 +102,7 @@ body{
     color: white;
 }
 .col4{
-    text-align: center;
+    text-align: justify;
 }
 .col4 li{
     list-style-type: none;
@@ -129,6 +121,9 @@ body{
     box-sizing: border-box;
     background-color: black;
     color: white;
+}
+.col5{
+    text-align: justify;
 }
 .col10{
     padding-left: 50px;
