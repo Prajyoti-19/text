@@ -64,7 +64,7 @@ body{
     padding-left: 400px;
 }
 .sec1{
-    background: url(https://prajyoti-19.github.io/text/Images/water.jpeg);
+    background: url(C:/Users/HP/OneDrive/Documents/Courses/CSS/Projects/Education/Images/water.jpeg);
     width: 100%;
     height: 700px;
     text-align: center;
@@ -119,9 +119,6 @@ body{
 }
 #sec4{
     font-size: 33px;
-}
-.col5{
-    padding-left: 200px;
 }
 #sec41{
     background-color: #2e3192;
